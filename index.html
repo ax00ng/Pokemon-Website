@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CS719 Assignment One</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <p>
+            <h1>
+                Pokemon Data Viewer
+            </h1>
+            </p>
+        </div>
+
+        <div class="all-pokemon-sidebar-left">
+            <div class="favorites-container">
+                <h2>Favorites</h2>
+                <p>add by<button class="style-me">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                            <path
+                                d="M12 21.35l-1.45-1.32C5.4 16.35 2 12.28 2 8.50 2 5.42 4.42 3 7.50 3c1.74 0 3.41.81 4.50 2.09C13.09 3.81 14.76 3 16.50 3 19.58 3 22 5.42 22 8.50c0 3.78-3.40 7.85-8.55 11.54">
+                            </path>
+                        </svg>
+                    </button></p>
+                <div class="favorites-section"></div>
+            </div>
+            <h3>
+                All Pokemon
+            </h3>
+        </div>
+
+        <div class="sidebar-right">
+            <h2>
+                Pokemon Type Data:
+            </h2>
+            <div class="on-offense">
+                <p>
+                <h3>On offense:</h3>
+                <p class="table-container"></p>
+                </p>
+            </div>
+
+            <div class="on-defense">
+                <p>
+                <h3>On defense:</h3>
+                <p class="defense-table-container"></p>
+                </p>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="pokemon-details-for">
+                <h2>Pokemon details for </h2>
+            </div>
+
+            <div class="image-url">
+                <img src="./assets/placeholderimg.png" alt="Placeholder Image" width="522" height="522">
+            </div>
+            <div class="reading">
+                <div class="pokedex-number">
+                    <p>
+                        Pokedex number #0
+                    </p>
+                </div>
+
+                <div class="description">
+                    Description:
+                    <p id="description"></p>
+                </div>
+
+                <div class="type-info">
+                    Type info:
+                    <p id="type-info"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="pokemon-pixel-at-bottom">
+                2
+            </p>
+            <p>
+                Pokemon Data Viewer created by Anna Xiong
+            </p>
+            <p>
+                <a href="https://www.pokemon.com/us/pokedex">
+                    Official Pokemon Page
+                </a>
+            </p>
+        </div>
+
+</body>
+
+</html>
